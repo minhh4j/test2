@@ -1,0 +1,38 @@
+/* Hero Section */
+.hero {
+    background: url('https://th.bing.com/th/id/R.ed64d9a0045d56c9f232959ede18e4dd?rik=TUX4%2bLkxXErSaw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fb%2f0%2f7%2f461688.jpg&ehk=VC%2bf3e2x%2bQsnyJEqkHGemZ%2bEpaTBEukTMOf%2f8czZcvk%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;
+    color: #fff;
+    padding: 300px 0;
+    text-align: center;
+}
+
+/* Card Image */
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+}
+.icon-founts {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon {
+    font-size: 24px; /* Adjust size as needed */
+    margin: 0 10px; /* Space between icons */
+    color: #fff; /* Icon color */
+}
+
+.icon a {
+    color: inherit; /* Ensure icon color matches text color */
+}
+
+@media (max-width: 767px) {
+    .icon-founts {
+        margin-top: 10px;
+    }
+    .icon {
+        font-size: 20px;
+    }
+    
+}
